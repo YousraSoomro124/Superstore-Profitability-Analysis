@@ -22,7 +22,7 @@ The core objective of this analysis is to investigate this divergence and identi
 
     ### 3 Exploratory Data Analysis (EDA):
         **Sales vs. Profit (The Big Picture)**
-            ![Sales vs Profit Trend](graphs/Negative Profit Trend 2014-2017.png)
+            ![Sales vs Profit Trend](graphs/Negative%Profit%Trend%2014-2017.png)
             
         **Sales vs. Profit Margin (The Efficiency)**
             ![Sales vs Profit Margin Trend](Superstore-Profitability-Analysis-Project/graphs/Overall_Profit_VS_ProfitMargin_trend (yearly).png)
