@@ -24,17 +24,17 @@ The core objective of this analysis is to investigate this divergence and identi
 ### Exploratory Data Analysis (EDA):
 
 **Sales vs. Profit (The Big Picture)**
-    ![Sales vs Profit Trend](Superstore-Profitability-Analysis/graphs/Negative_Profit_Trend_2014-2017.png)
+    ![Sales vs Profit Trend](graphs/Negative_Profit_Trend_2014-2017.png)
             
 **Sales vs. Profit Margin (The Efficiency)**
     ![Sales vs Profit Margin Trend](graphs/Overall_Profit_VS_ProfitMargin_trend_(yearly).png)
     **Insight:** While the total Sales volume shows a healthy upward trend, the **Profit Margin** is decreasing in specific months. This indicates that we are selling more but earning less per unit, likely due to high operational costs or aggressive discounting.
                 
 **Segmentation:**
-    ![Category wise profit Trend](graphs/Category%Vs%Profit%(2016-2017).png)
+    ![Category wise profit Trend](graphs/Category_Vs_Profit_(2016-2017).png)
 
 **Region-wise Profit Loss of Office Supplies Sub-Category in 2017:**
-    ![region wise profit Trend](graphs/Region&Wise&Profit.png)
+    ![region wise profit Trend](graphs/Region_Wise_Profit.png)
         
 **Drilling Down (Sub-Category Insights):**
     ![Sub-Category Graph](graphs/Central_Region_Sub-Categories_of_Office_Supplies_in_2017_(Profit_Vs_Sales).png)
