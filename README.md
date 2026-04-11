@@ -25,7 +25,10 @@ The core objective of this analysis is to investigate this divergence and identi
 
 **Sales vs. Profit (The Big Picture)**
 ![Sales vs Profit Trend](Superstore-Profitability-Analysis-Project/graphs/Negative_Profit_Trend_2014-2017.png)
-            
+> Looking at the overall trajectory from 2014 to 2017, there is a clear and healthy growth in our Sales volume. However, the real story lies in the Profit line, which isn't quite keeping pace.
+Especially in 2017, we see a significant "divergence"—Sales reached an all-time high, but Profit didn't follow that same upward curve. This is a red flag. It tells us that while our market reach is expanding, our operational efficiency is leaking. We are working harder to sell more, but the bottom line isn't reflecting that effort.
+
+
 **Sales vs. Profit Margin (The Efficiency)**
 ![Sales vs Profit Margin Trend](Superstore-Profitability-Analysis-Project/graphs/Overall_Profit_VS_ProfitMargin_trend_yearly.png)
 > **Insight:** While the total Sales volume shows a healthy upward trend, the **Profit Margin** is decreasing in specific months. This indicates that we are selling more but earning less per unit, likely due to high operational costs or aggressive discounting.
