@@ -27,25 +27,25 @@ The core objective of this analysis is to investigate this divergence and identi
 ![Sales vs Profit Trend](Superstore-Profitability-Analysis-Project/graphs/Negative_Profit_Trend_2014-2017.png)
             
 **Sales vs. Profit Margin (The Efficiency)**
-![Sales vs Profit Margin Trend](graphs/Overall_Profit_VS_ProfitMargin_trend_yearly.png)
+![Sales vs Profit Margin Trend](Superstore-Profitability-Analysis-Project/graphs/Overall_Profit_VS_ProfitMargin_trend_yearly.png)
 > **Insight:** While the total Sales volume shows a healthy upward trend, the **Profit Margin** is decreasing in specific months. This indicates that we are selling more but earning less per unit, likely due to high operational costs or aggressive discounting.
                 
 **Segmentation:**
-![Category wise profit Trend](graphs/Category_Vs_Profit_2016-2017.png)
+![Category wise profit Trend](Superstore-Profitability-Analysis-Project/graphs/Category_Vs_Profit_2016-2017.png)
 
 **Region-wise Profit Loss of Office Supplies Sub-Category in 2017:**
-![region wise profit Trend](graphs/Region_Wise_Profit.png)
+![region wise profit Trend](Superstore-Profitability-Analysis-Project/graphs/Region_Wise_Profit.png)
         
 **Drilling Down (Sub-Category Insights):**
-![Sub-Category Graph](graphs/Central_Region_Sub-Categories_of_Office_Supplies_in_2017_Profit_Vs_Sales.png)
+![Sub-Category Graph](Superstore-Profitability-Analysis-Project/graphs/Central_Region_Sub-Categories_of_Office_Supplies_in_2017_Profit_Vs_Sales.png)
         Insight: Within Furniture, Tables are causing the maximum loss. Also, in Office Supplies, Binders are showing high variance in profit.
         
 **Root Cause:**
-![Impact of Discount on Average Profit (Overall Store)](graphs/Sub-Category_Losses_at_Specific_Discount_Rates.png)
+![Impact of Discount on Average Profit (Overall Store)](Superstore-Profitability-Analysis-Project/graphs/Sub-Category_Losses_at_Specific_Discount_Rates.png)
 > To pinpoint the exact cause of profit leakage in 2017, I filtered the data for the Central Region and analyzed the relationship between Sub-Categories and Discount levels. By aggregating the total profit for discounts above 30%, it became evident that Binders at an 80% discount rate were the single largest contributor to the regional loss.
         
 **The Big Picture: Overall Impact of Discounts:**
-![Discount vs Profit](graphs/Impact_of_Discount_on_Average_Profit_Overall_Store.png)
+![Discount vs Profit](Superstore-Profitability-Analysis-Project/graphs/Impact_of_Discount_on_Average_Profit_Overall_Store.png)
         To verify if this was a broader trend, I analyzed the average profit across all discount levels for the entire store. As shown in the chart above, profit remains positive until the 20% threshold, after which any further discounting leads to a sharp decline into negative territory.
 
 
