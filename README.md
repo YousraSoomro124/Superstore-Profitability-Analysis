@@ -8,19 +8,19 @@ While the Superstore saw a significant increase in total sales volume in 2017, t
 The core objective of this analysis is to investigate this divergence and identify the specific factors, whether regional, categorical, or operational, that are suppressing profitability.
 
 ## Methodology
-    ### 1 Data Collection & Understanding
+    ### Data Collection & Understanding
         - Dataset Size: 9,994 records and 21 features.
         - Time Frame: Data spans from January 2014 to December 2017.
-        - data frame : containing categorical (regional, category, sub-category) and non-categorical (Sales, Profit, Discount, quantity)
+        - data frame: containing categorical (regional, category, sub-category) and non-categorical (Sales, Profit, Discount, quantity)
         - Key Metrics: Focused on Sales, Profit, and Discount to identify the drivers of business performance.
 
-    ### 2 Data Integrity: Performed data cleaning:
+    ### Data Integrity: Performed data cleaning:
            . Handled date formats
            . Standardized category names
            . Identified and removed duplicate records to ensure unique transactions and to prevent overcounting.
            . Verified that there were no missing values in critical columns.
 
-    ### 3 Exploratory Data Analysis (EDA):
+    ### Exploratory Data Analysis (EDA):
         **Sales vs. Profit (The Big Picture)**
             ![Sales vs Profit Trend](graphs/Negative%Profit%Trend%2014-2017.png)
             
@@ -31,7 +31,7 @@ The core objective of this analysis is to investigate this divergence and identi
         **Segmentation:**
             ![Category wise profit Trend](Superstore-Profitability-Analysis-Project/graphs/Category Vs Profit (2016-2017).png)
 
-        **Region Wise Profit loss of Office Supplies Sub-Category in 2017:**
+        **Region-wise Profit Loss of Office Supplies Sub-Category in 2017:**
         ![region wise profit Trend](Superstore-Profitability-Analysis-Project/graphs/Region Wise Profit.png)
         
         **Drilling Down (Sub-Category Insights):**
