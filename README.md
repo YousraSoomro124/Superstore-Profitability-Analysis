@@ -24,20 +24,26 @@ The core objective of this analysis is to investigate this divergence and identi
 ### Exploratory Data Analysis (EDA):
 
 **Sales vs. Profit (The Big Picture)**
-![Sales vs Profit Trend](Superstore-Profitability-Analysis-Project/graphs/Negative_Profit_Trend_2014-2017.png)
+![Sales vs Profit Trend](Superstore-Profitability-Analysis-Project/graphs/profit_vs_sales.png)
 > Looking at the overall trajectory from 2014 to 2017, there is a clear and healthy growth in our Sales volume. However, the real story lies in the Profit line, which isn't quite keeping pace.
 Especially in 2017, we see a significant "divergence"—Sales reached an all-time high, but Profit didn't follow that same upward curve. This is a red flag. It tells us that while our market reach is expanding, our operational efficiency is leaking. We are working harder to sell more, but the bottom line isn't reflecting that effort.
 
 
 **Sales vs. Profit Margin (The Efficiency)**
 ![Sales vs Profit Margin Trend](Superstore-Profitability-Analysis-Project/graphs/Overall_Profit_VS_ProfitMargin_trend_yearly.png)
-> **Insight:** While the total Sales volume shows a healthy upward trend, the **Profit Margin** is decreasing in specific months. This indicates that we are selling more but earning less per unit, likely due to high operational costs or aggressive discounting.
+> If we strip away the big Sales numbers and look at the Profit Margin (%), the picture becomes even clearer. A steady or declining margin in the face of rising sales suggests that our "Cost of Doing Business" is creeping up.
+It feels like the business is stuck in a 'growth at any cost' phase. Whether it's rising shipping costs or aggressive seasonal discounting, our ability to retain a percentage of every dollar earned is being squeezed. To fix this, we need to stop looking at how much we sell and start looking at how profitably we sell.
                 
 **Segmentation:**
 ![Category wise profit Trend](Superstore-Profitability-Analysis-Project/graphs/Category_Vs_Profit_2016-2017.png)
+> To uncover the true health of the business, I isolated all transactions that resulted in a loss during 2016 and 2017. By comparing Sales volume directly against Negative Profit, a startling 'Inverse Relationship' emerged: As our Sales climbed, our losses deepened.
+Office Supplies stands out as the primary concern. In just one year, its losses more than doubled—plunging from -$10.8k to -$21.7k—despite maintaining significant sales volume. This confirms that we are dealing with a systemic issue where we are successfully moving products but doing so at a price that doesn't even cover basic costs.
+Similarly, Furniture and Technology also show consistent negative margins. The data proves that our growth in these segments is 'artificial.' We are essentially scaling a deficit—the more we sell under current discount structures, the more financial damage we sustain. This points to a desperate need to overhaul our pricing strategy, specifically in the Central Region.
 
 **Region-wise Profit Loss of Office Supplies Sub-Category in 2017:**
 ![region wise profit Trend](Superstore-Profitability-Analysis-Project/graphs/Region_Wise_Profit.png)
+> After narrowing down the problem to Office Supplies, the next logical step was to identify the Geographical Hotspot. The regional breakdown for 2017 makes it undeniable: the Central Region is where the bleeding is most severe.
+While other regions are operating within manageable limits, the Central Region's performance is an outlier. This tells us that the problem isn't necessarily with the product itself, but with how it’s being managed or priced in this specific territory. By identifying this 'Hotspot,' we can now focus our investigation on regional policies rather than blaming the entire national supply chain
         
 **Drilling Down (Sub-Category Insights):**
 ![Sub-Category Graph](Superstore-Profitability-Analysis-Project/graphs/Central_Region_Sub-Categories_of_Office_Supplies_in_2017_Profit_Vs_Sales.png)
