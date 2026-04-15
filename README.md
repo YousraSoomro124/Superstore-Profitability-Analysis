@@ -9,6 +9,7 @@ The core objective of this analysis is to investigate this divergence and identi
 
 ## Methodology:
 
+
 ### Data Collection & Understanding
     - Dataset Size: 9,994 records and 21 features.
     - Time Frame: Data spans from January 2014 to December 2017.
@@ -65,8 +66,8 @@ To validate the exact cause of profit leakage in 2017, I filtered the data for t
 **Key Insight:**
 ![Central Region - Office Supplies Performance Deep-Dive)](Superstore-Profitability-Analysis-Project/graphs/Ship_mode_analysis.png)
 While analyzing the 2017 data for the Central Region, I discovered a significant deficit in the 'Office Supplies' category, specifically in 'Binders.' To validate my findings, I investigated if expensive shipping (First Class) was draining our profits.
-**Standard Class (Cheapest):** Highest volume (228 units) | Loss: $7,027
-**First Class (Premium):** Lower volume (73 units) | Loss: $2,738
+**Standard Class (Cheapest):** Highest volume (228 units) | Loss: -$7,027
+**First Class (Premium):** Lower volume (73 units) | Loss: -$2,738
 
 The fact that even our cheapest shipping mode is generating significant losses proves that the issue is not the shipping cost. Instead, the 80% discount has reduced the sales price so much that it cannot cover basic expenses. Aggressive discounting is the root cause.
 
@@ -76,7 +77,20 @@ The fact that even our cheapest shipping mode is generating significant losses p
 ![Discount vs Profit](Superstore-Profitability-Analysis-Project/graphs/Impact_of_Discount_on_Average_Profit_Overall_Store.png)
 To verify if this was a broader trend, I analyzed the average profit across all discount levels for the entire store. As shown in the chart above, profit remains positive until the 20% threshold, after which any further discounting leads to a sharp decline into negative territory.
 
+## Tools & Technologies Used
+* **Language:** Python
+* **Libraries:** * **Pandas:** Data cleaning and manipulation.
+  * **Matplotlib & Seaborn:** Advanced data visualization.
+* **Tool:** Jupyter Notebook
 
+## Conclusion & Recommendations
+**The Final Verdict**
+My analysis confirms that the profit decline in 2017 is not due to low sales or high shipping costs. Instead, it is a Pricing Strategy failure in the Central Region. The business is losing money because products (specifically Binders) are being sold at an 80% discount, which is below the cost of operations.
+
+**What should the business do next?**
+- Stop 80% Discounts: Immediately stop giving more than 20-30% discount on Binders and Appliances.
+- Focus on Profit, Not Just Sales: The sales team should be rewarded for "Total Profit" made, not just the "Number of Units" sold.
+- Fix the Central Region: Review why the Central Region is giving such high discounts compared to other regions.
 
 
 
