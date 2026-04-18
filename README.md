@@ -59,12 +59,6 @@ Universal Negative Margin: All customer segments are operating significantly bel
 Critical Segment Performance: The segment margin across both Consumer and Corporate is a staggering -120%. This level of loss is a major red flag for the Office Supplies category.
 Systemic Pricing Issue: The zero-line benchmark clearly illustrates that current discounting practices are making the entire region’s Office Supplies business unsustainable, regardless of the customer segment.
 
-**Comparative Analysis: Sales vs. Profit by Segment (2017)**
-![Segment Profit vs Sales](Superstore-Profitability-Analysis-Project/graphs/Central_Region_Sub-Categories_of_Office_Supplies_in_2017_Profit_Vs_Sales.png)
-The Profit-Revenue Gap: There is a significant gap between sales volume and net profitability. High revenue generation is currently leading to increased losses instead of gains.
-Negative Scaling: While the Consumer and Corporate segments drive the highest revenue, they also contribute to the largest share of the deficit. This indicates that the "Growth at any cost" strategy is backfiring.
-Inefficient Scaling: The visual data confirms that increasing the volume of transactions in the Central Region currently scales the loss instead of profitability, highlighting a fundamental flaw in the regional pricing model.
-
 **Granular Analysis: Sub-Category Loss Breakdown by Segment:**
 ![Sub-Category Loss Breakdown](Superstore-Profitability-Analysis-Project/graphs/Sub-Category_Loss_Breakdown_by_Segment_Central-Office_Supplies.png)
 Targeted Deficit: The analysis confirms that the deficit is not a general regional trend but is concentrated in Binders and Appliances across all primary segments.
